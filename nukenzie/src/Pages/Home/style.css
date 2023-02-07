@@ -1,0 +1,89 @@
+.div-bgc{
+    background-color: #212529;
+    height: 100vh;
+    padding: 0px 15px 0px 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 25px;
+}
+.Div-row{
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+.div-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    color: white;
+}
+.div-desc > h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 48px;
+}
+.div-desc > p{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.div-desc > button {
+    width: 100%;
+    height: 48px;
+
+    color: var(--Grey-1);
+    background-color: var(--Color-Primary-1);
+    
+    border: transparent;
+    border-radius: var(--Border-radius);
+}
+
+.h2-redColor{
+    color: var(--Color-Primary-1);
+    font-size: 30px;
+    font-weight: 800;
+}
+.span-White{
+    color: white;
+    font-weight: 800;
+}
+
+img{
+    width: 100%;
+    background-color: rgba(#E064CC 5%);
+}
+
+@media screen and (min-width: 769px){
+.div-bgc{
+
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction:row;
+
+    align-items: center;
+}
+
+.Div-row{
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+.div-desc{
+    justify-content: center;
+}
+.div-desc >button{
+    width: 240px;
+}
+img{
+    width: 590px;
+    background-color: rgba(#E064CC 5%);
+}
+
+}

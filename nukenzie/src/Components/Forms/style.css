@@ -1,0 +1,72 @@
+.ContainerForms {
+  border: 2px solid var(--Grey-2);
+  border-radius: 4px;
+  padding: 30px 15px 40px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.Div-gap {
+  display: flex;
+  gap: 25px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.inputDesc {
+  width: 314px;
+  height: 52px;
+
+  padding-left: 15px;
+
+  border-radius: var(--Border-radius);
+  border: transparent;
+  background-color: var(--Grey-1);
+  box-sizing: border-box;
+}
+.inputValue {
+  width: 128px;
+  height: 48px;
+
+  padding-left: 15px;
+
+  border-radius: var(--Border-radius);
+  border: transparent;
+  background-color: var(--Grey-1);
+}
+.inputSelect {
+  width: 150px;
+  height: 48px;
+
+  padding-left: 15px;
+
+  border-radius: var(--Border-radius);
+  border: transparent;
+  background-color: var(--Grey-1);
+}
+.ContainerForms > button {
+  width: 314px;
+  height: 48px;
+
+  color: var(--Grey-1);
+  background-color: var(--Color-Primary-1);
+
+  border: transparent;
+  border-radius: var(--Border-radius);
+}
+.inputDesc:hover {
+  background: #ffffff;
+  border: 2px solid #212529;
+}
+.inputSelect:hover {
+  background: #f8f9fa;
+  border: 1.2px solid #212529;
+}

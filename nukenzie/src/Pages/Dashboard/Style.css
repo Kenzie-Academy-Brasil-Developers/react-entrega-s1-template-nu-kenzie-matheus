@@ -1,0 +1,31 @@
+.div-gap{
+    display: flex;
+    flex-direction: column;
+
+    gap: 55px;
+}
+.Container{
+    box-sizing: border-box;
+
+    padding: 0px 15px 0px 15px; 
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 55px;
+}
+.Forms-and-reduce{
+    display: flex;
+    flex-direction: column;
+
+    gap: 55px;
+}
+@media screen and (min-width: 769px){
+    .Container{
+        flex-direction: row;
+        width: 100%;
+        max-width: 1200px;
+        height: 100vh;
+        margin: 0 auto;
+    }
+}
